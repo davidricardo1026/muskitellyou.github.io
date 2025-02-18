@@ -17,25 +17,47 @@
         }
 
         .text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
             text-align: center;
             max-width: 80%;
             font-size: 2.5em;
             color: #333;
         }
 
-        .box {
+        .mailBox {
             height: 20vh;
             width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
+        .mailto-link {
+            font-size: 1.2em;
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        .mailto-link:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
 <div class="text">
-    Immigrating to Mars is unethical, dangerous, and also not agreed upon by Martians. If a species cannot even protect
-    its own home planet, then it does not deserve to survive.
+    <p>
+        Immigrating to Mars is unethical, dangerous, and also not agreed upon by Martians. If a species cannot even
+        protect
+        its own home planet, then it does not deserve to survive.
+    </p>
 </div>
-<div class="box">
+</div>
+<div class="mailBox">
+    <a class="mailto-link" href="mailto:david.ricardo@qq.com">Contact David Ricardo</a>
 </div>
 </body>
 </html>
